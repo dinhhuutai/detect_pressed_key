@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Detect Pressed Key</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+
+    <div class="select-background">
+        <div>
+            <input type="checkbox" value="black">
+            Black
+        </div>
+        <div>
+            <input type="checkbox" value="yellow">
+            Yellow
+        </div>
+        <div>
+            <input type="checkbox" value="red">
+            Red
+        </div>
+        <div>
+            <input type="checkbox" value="blue">
+            Blue
+        </div>
+        <div>
+            <input type="checkbox" value="pink">
+            Pink
+        </div>
+    </div>
+    
+    <div class="key_board">
+        <!-- row 1 -->
+        <ul class="row">
+            <li class="key key_1 key_esc" value="escape">Esc</li>
+            <li class="key key_1 key_F" value="audiovolumemute"><i class="fas fa-volume-mute"></i>F1</li>
+            <li class="key key_1 key_F" value="audiovolumedown"><i class="fas fa-volume-down"></i>F2</li>
+            <li class="key key_1 key_F" value="audiovolumeup"><i class="fas fa-volume-up"></i>F3</li>
+            <li class="key key_1 key_F" value=""><i class="fas fa-syringe"></i>F4</li>
+            <li class="key key_1 key_F" value="f5"><i class="fas fa-redo"></i>F5</li>
+            <li class="key key_1 key_F" value=""><i class="fas fa-laptop"></i>F6</li>
+            <li class="key key_1 key_F" value=""><i class="fas fa-plane"></i>F7</li>
+            <li class="key key_1 key_F" value=""><i class="fas fa-camera"></i>F8</li>
+            <li class="key key_1 key_F" value=""><i class="fas fa-lock"></i>F9</li>
+            <li class="key key_1 key_F" value=""><i class="fas fa-desktop"></i>F10</li>
+            <li class="key key_1 key_F" value=""><i class="fas fa-sun"></i>F11</li>
+            <li class="key key_1 key_F" value=""><i class="fas fa-cloud-sun"></i>F12</li>
+            <li class="key key_1" value="">PrtSc</li>
+            <li class="key key_1" value="insert">Insert</li>
+            <li class="key key_1" value="delete">Delete</li>
+        </ul>
+
+        <ul class="row">
+            <!-- row 2 -->
+            <li class="key key_2" value="`"><span>~</span>`</li>
+            <li class="key key_2" value="1"><span>!</span>1</li>
+            <li class="key key_2" value="2"><span>@</span>2</li>
+            <li class="key key_2" value="3"><span>#</span>3</li>
+            <li class="key key_2" value="4"><span>$</span>4</li>
+            <li class="key key_2" value="5"><span>%</span>5</li>
+            <li class="key key_2" value="6"><span>^</span>6</li>
+            <li class="key key_2" value="7"><span>&</span>7</li>
+            <li class="key key_2" value="8"><span>*</span>8</li>
+            <li class="key key_2" value="9"><span>(</span>9</li>
+            <li class="key key_2" value="0"><span>)</span>0</li>
+            <li class="key key_2" value="-"><span>_</span>-</li>
+            <li class="key key_2" value="="><span>+</span>=</li>
+            <li class="key key_backspace" value="backspace"><i class="fas fa-backspace"></i>Backspace</li>
+        </ul>
+
+        <ul class="row">
+            <!-- row 3 -->
+            <li class="key key_tab" value="tab">Tab<i class="fas fa-sign-in-alt"></i></li>
+            <li class="key key_3" value="q">Q<span></span></li>
+            <li class="key key_3" value="w">W<span></span></li>
+            <li class="key key_3" value="e">E<span></span></li>
+            <li class="key key_3" value="r">R<span></span></li>
+            <li class="key key_3" value="t">T<span></span></li>
+            <li class="key key_3" value="y">Y<span></span></li>
+            <li class="key key_3" value="u">U<span></span></li>
+            <li class="key key_3" value="i">I<span></span></li>
+            <li class="key key_3" value="o">O<span></span></li>
+            <li class="key key_3" value="p">P<span></span></li>
+            <li class="key key_3" value="["><span>{</span>[</li>
+            <li class="key key_3" value="]"><span>}</span>]</li>
+            <li class="key key_upenter key_3" value="\"><span>|</span>\</li>
+        </ul>
+
+        <ul class="row">
+            <!-- row 4 -->
+            <li class="key key_capslk" value="capslock">CapsLK<i class="hidden fas fa-lock-open"></i><i class="fas fa-lock"></i></li>
+            <li class="key key_4" value="a">A<span></span></li>
+            <li class="key key_4" value="s">S<span></span></li>
+            <li class="key key_4" value="d">D<span></span></li>
+            <li class="key key_4" value="f">F<span></span></li>
+            <li class="key key_4" value="g">G<span></span></li>
+            <li class="key key_4" value="h">H<span></span></li>
+            <li class="key key_4" value="j">J<span></span></li>
+            <li class="key key_4" value="k">K<span></span></li>
+            <li class="key key_4" value="l">L<span></span></li>
+            <li class="key key_4" value=";"><span>:</span>;</li>
+            <li class="key key_4" value="'"><span>"</span>'</li>
+            <li class="key key_enter" value="enter"><i class="fas fa-level-down-alt"></i>Enter</li>
+        </ul>
+
+        <ul class="row">
+            <!-- row 5 -->
+            <li class="key key_shift--left" value="shift">Shift<i class="fas fa-arrow-alt-circle-up"></i></li>
+            <li class="key key_5" value="z">Z<span></span></li>
+            <li class="key key_5" value="x">X<span></span></li>
+            <li class="key key_5" value="c">C<span></span></li>
+            <li class="key key_5" value="v">V<span></span></li>
+            <li class="key key_5" value="b">B<span></span></li>
+            <li class="key key_5" value="n">N<span></span></li>
+            <li class="key key_5" value="m">M<span></span></li>
+            <li class="key key_5" value=","><span><</span>,</li>
+            <li class="key key_5" value="."><span>></span>.</li>
+            <li class="key key_5" value="/"><span>?</span>/</li>
+            <li class="key key_shift--right" value="shift"><i class="fas fa-arrow-alt-circle-up"></i>Shift</li>
+        </ul>
+
+        <ul class="row">
+            <!-- row 6 -->
+            <li class="key key_6 key_ctrl" value="control">Ctrl</li>
+            <li class="key key_6">Fn</li>
+            <li class="key key_6"><i class="fab fa-windows"></i></li>
+            <li class="key key_6" value="alt">Alt</li>
+            <li class="key key_6 key_space" value=" "></li>
+            <li class="key key_6" value="alt">Alt</li>
+            <li class="key key_6" value="control">Ctrl</li>
+            <li class="key key_6 key_home key_move" value="arrowleft"><i class="fas fa-arrow-left"></i>Home</li>
+            <li class="key_updown">
+                <div class="key key_6 key_up key_move" value="arrowup">Up<i class="fas fa-arrow-up"></i></div>
+                <div class="key key_6 key_down key_move" value="arrowdown">Down<i class="fas fa-arrow-down"></i></div>
+            </li>
+            <li class="key key_6 key_end key_move" value="arrowright">End<i class="fas fa-arrow-right"></i></li>
+        </ul>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
